@@ -1,4 +1,4 @@
-# Novo Projeto AdonisJS
+# Api AdonisJS
 
 Este é um projeto desenvolvido com [AdonisJS](https://adonisjs.com/), um framework web para Node.js, utilizando MySQL como banco de dados.
 
