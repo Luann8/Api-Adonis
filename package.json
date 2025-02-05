@@ -1,7 +1,7 @@
 {
   "name": "adonis-fullstack-app",
   "version": "4.1.0",
-  "adonis-version": "4.1.0",
+  "adonis-version": "6.17.1",
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
@@ -16,19 +16,25 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^5.0.8",
-    "@adonisjs/auth": "^3.0.7",
-    "@adonisjs/bodyparser": "~2.0.9",
-    "@adonisjs/cors": "^1.0.7",
-    "@adonisjs/fold": "^4.0.9",
-    "@adonisjs/framework": "^5.0.9",
+    "@adonisjs/ace": "^13.3.0", 
+    "@adonisjs/auth": "^9.0.5",
+    "@adonisjs/bodyparser": "10.0.2" ,
+    "@adonisjs/core": "^6.17.1",
+    "@adonisjs/cors": "^2.2.1",
+    "@adonisjs/fold": "^10.1.3",
+    "@adonisjs/framework": "^5.0.13",
     "@adonisjs/ignitor": "^2.0.8",
-    "@adonisjs/lucid": "^6.3.0",
-    "@adonisjs/session": "^1.0.27",
-    "@adonisjs/shield": "^1.0.8",
-    "mysql2": "^2.3.3"
+    "@adonisjs/lucid": "^21.6.0",
+    "@adonisjs/session": "^7.5.1",
+    "@adonisjs/shield": "^8.1.2",
+    "mysql2": "^3.12.0"
   },
   "autoload": {
     "App": "./app"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^7.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
