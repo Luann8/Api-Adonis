@@ -1,12 +1,12 @@
-// app.js
-const { Ignitor } = require('@adonisjs/ignitor')
-const path = require('path')
+'use strict';
 
-// Caminho da raiz da aplicação
-const appRoot = path.join(__dirname)
+module.exports = {
+  appName: 'App',
+  appNamespace: 'App', // Esse valor deve estar definido
+};
+'use strict';
 
-// Inicializando o servidor do AdonisJS
-new Ignitor(require('@adonisjs/fold'))
-  .appRoot(appRoot)
-  .fire()  // Inicia a aplicação
-  .catch(console.error)
+module.exports = {
+  appName: 'App',
+  appNamespace: 'App', // Esse valor deve estar definido
+};
